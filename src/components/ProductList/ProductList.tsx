@@ -1,7 +1,12 @@
+import data from "../../data/data.json";
+import ProductCard from "../ProductCard/ProductCard";
 
-const ProductList = () => {
+const ProductList =()=>{
+
+ const productList = data.map((product) =><ProductCard  {...product}/> )
+
   return (
-    <div>ProductList</div>
+    <div className="grid grid-cols-3">{productList}</div>
   )
 }
 
