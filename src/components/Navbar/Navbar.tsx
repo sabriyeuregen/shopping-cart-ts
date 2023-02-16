@@ -26,7 +26,8 @@ const Navbar = () => {
       </Link>
       <div className="hidden xl:flex items-center space-x-5 items-center rounded-full">
         {cartQuantity > 0 &&  (
-          <button onClick={openCart}>
+          <Link to="/shoppingcart">
+          <button >
             <a className="hover:text-gray-200" href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,6 +49,8 @@ const Navbar = () => {
               </div>
             </a>
           </button>
+          </Link>
+          
         )}
       </div>
     </div>
