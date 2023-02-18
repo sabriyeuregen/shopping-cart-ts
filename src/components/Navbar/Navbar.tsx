@@ -20,9 +20,9 @@ const Navbar = () => {
       </Link>
       <Link
         className="p-4 border-b-2 border-purple-500 border-opacity-0 hover:border-opacity-100 hover:text-purple-500 duration-200 cursor-pointer"
-        to="/about"
+        to="/contact"
       >
-        Hakkımızda
+        İletişime Geç
       </Link>
       <div className="hidden xl:flex items-center space-x-5 items-center rounded-full">
         {cartQuantity > 0 &&  (

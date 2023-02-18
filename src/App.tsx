@@ -9,7 +9,7 @@ import {
   
 import Home from "./pages/Home/Home";
 import Store from "./pages/Store/Store";
-import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
 import RootLayout from './pages/RootLayout/RootLayout';
 import ShoppingCartPage from './pages/ShoppingCartPage/ShoppingCartPage';
 
@@ -18,7 +18,7 @@ const router = createBrowserRouter(
     <Route element={<RootLayout/>}>
     <Route path='/' element={<Home/>}></Route>
     <Route path='/store' element={<Store/>}></Route>
-    <Route path='/about' element={<About/>}></Route>
+    <Route path='/contact' element={<Contact/>}></Route>
     <Route path='/shoppingcart' element={<ShoppingCartPage/>}></Route>
     <Route></Route>
     </Route>
