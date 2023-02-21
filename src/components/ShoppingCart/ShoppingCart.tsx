@@ -1,5 +1,5 @@
 import { useShoppingCart } from "../../store/shoppingcart-contex";
-import CartItem from "../CartItem.tsx/CartItem";
+import CartItem from "../CartItem/CartItem";
 
 function ShoppingCart() {
 

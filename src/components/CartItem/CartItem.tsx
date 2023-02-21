@@ -21,12 +21,12 @@ function CartItem({ id, quantity }: CartItemProps) {
         <div>
           {item.name}{" "}
           {quantity > 1 && (
-            <span style={{ fontSize: ".65rem" }}>x{quantity}</span>
+            <span style={{ fontSize: ".65rem" }}>Ürün Adedi = x{quantity}</span>
           )}
         </div>
-        <div style={{ fontSize: ".75rem" }}>{item.price}</div>
+        <div style={{ fontSize: ".75rem" }}>Fiyat = {item.price}₺</div>
       </div>
-      <div> {item.price * quantity}</div>
+      <div>Toplam Fiyat = {item.price * quantity}₺</div>
      
     </div>
   );
