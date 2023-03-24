@@ -1,10 +1,10 @@
 import ProductList from "../../components/ProductList/ProductList";
-const Store = () => {
+const Store: React.FC = () => {
   return (
     <div>
-      <ProductList/>
+      <ProductList />
     </div>
-  )
-}
+  );
+};
 
 export default Store;

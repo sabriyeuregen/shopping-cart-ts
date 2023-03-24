@@ -1,7 +1,5 @@
 import ShoppingCart from "../../components/ShoppingCart/ShoppingCart";
-function ShoppingCartPage() {
-  return(
-  <ShoppingCart/>
-  )
-}
+const ShoppingCartPage: React.FC = () => {
+  return <ShoppingCart />;
+};
 export default ShoppingCartPage;

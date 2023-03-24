@@ -1,38 +1,38 @@
 [
-    {
-        "id":1,
-        "name":"Milk and honey kitap",
-        "price":49.99,
-        "imgUrl":"https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-    },
-    {
-        "id":2,
-        "name":"Laptop",
-        "price":15.000,
-        "imgUrl":"https://images.unsplash.com/photo-1551739440-5dd934d3a94a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
-    },
-    {
-        "id":3,
-        "name":"Mouse",
-        "price":199.99,
-        "imgUrl":"https://images.unsplash.com/photo-1625750188088-f6cd6756349c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-    },
-    {
-        "id":4,
-        "name":"Kablosuz Kulaklık",
-        "price":599.99,
-        "imgUrl":"https://images.unsplash.com/photo-1587523459887-e669248cf666?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
-    },
-    {
-        "id":5,
-        "name":"Canon fotoğraf makinası",
-        "price":1999.99,
-        "imgUrl":"https://images.unsplash.com/photo-1613047503507-b8d01ce6af26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
-    },
-    {
-        "id":6,
-        "name":"Sırt çantası",
-        "price":289.99,
-        "imgUrl":"https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-    }
+  {
+    "id": 1,
+    "name": "Milk and honey kitap",
+    "price": 49.99,
+    "imgUrl": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Laptop",
+    "price": 15.0,
+    "imgUrl": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Mouse",
+    "price": 199.99,
+    "imgUrl": "https://images.unsplash.com/photo-1625750188088-f6cd6756349c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Kablosuz Kulaklık",
+    "price": 599.99,
+    "imgUrl": "https://images.unsplash.com/photo-1587523459887-e669248cf666?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Canon fotoğraf makinası",
+    "price": 1999.99,
+    "imgUrl": "https://images.unsplash.com/photo-1613047503507-b8d01ce6af26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Sırt çantası",
+    "price": 289.99,
+    "imgUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+  }
 ]

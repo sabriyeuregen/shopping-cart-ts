@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
 import Header from "../../components/Header/Header";
-const RootLayout = () => {
+const RootLayout:React.FC = () => {
   return (
     <>
     <Header/>

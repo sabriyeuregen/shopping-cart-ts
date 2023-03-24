@@ -7,8 +7,13 @@ type ProductProps = {
   imgUrl: string;
 };
 
-const ProductCard = ({ id, name, price, imgUrl }: ProductProps) => {
-  const { getItemQuantity, increaseCartQuantity,decreaseCartQuantity,removeFromCart} = useShoppingCart();
+const ProductCard: React.FC<ProductProps> = ({ id, name, price, imgUrl }) => {
+  const {
+    getItemQuantity,
+    increaseCartQuantity,
+    decreaseCartQuantity,
+    removeFromCart,
+  } = useShoppingCart();
   let quantity = getItemQuantity(id);
 
   return (
@@ -24,22 +29,38 @@ const ProductCard = ({ id, name, price, imgUrl }: ProductProps) => {
       </div>
       <div className="">
         {quantity === 0 ? (
-          <button onClick={() => increaseCartQuantity(id)} className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button
+            onClick={() => increaseCartQuantity(id)}
+            className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+          >
             +Add To Cart
           </button>
         ) : (
           <div className="flex flex-row" style={{ gap: ".5rem" }}>
-            <button onClick={() => decreaseCartQuantity(id)}  className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">-</button>
+            <button
+              onClick={() => decreaseCartQuantity(id)}
+              className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+            >
+              -
+            </button>
             <div>{quantity}</div>
-            <button onClick={() => increaseCartQuantity(id)}  className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">+</button>
+            <button
+              onClick={() => increaseCartQuantity(id)}
+              className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+            >
+              +
+            </button>
             <div className="" style={{ gap: ".5rem" }}></div>
-            <button onClick={() => removeFromCart(id)}  className="bg-gray-300 hover:bg-red-400 text-gray-800 font-bold py-2 px-4 rounded-l">Sil</button>
-            </div>
+            <button
+              onClick={() => removeFromCart(id)}
+              className="bg-gray-300 hover:bg-red-400 text-gray-800 font-bold py-2 px-4 rounded-l"
+            >
+              Sil
+            </button>
+          </div>
         )}
-            </div>
-        
       </div>
-    
+    </div>
   );
 };
 
